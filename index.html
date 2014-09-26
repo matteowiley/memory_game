@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
+    <script src="https://cdn.firebase.com/js/client/1.0.15/firebase.js"></script>
+    <script src="./src/memory.js"></script>
+    <script src="./src/jQuery_driver.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/meme.css">
+  <title>Memory Game</title>
+</head>
+<style type="text/css">
+
+
+
+</style>
+<body> 
+<div class="start">
+  <span id="instruct" class="top">
+    Memory Game</span>
+  <span id="instruct" class="middle">
+    <ul>1. Turn over any two cards.</ul>
+    <ul>2 .If the cards match they will be removed.</ul>
+    <ul>3. If they don't match, turn them back over.</ul>
+    <ul>4. Remember what was on each card and where it was.</ul>
+    <ul>5. The game is over when all the cards have been matched.</ul>
+    <ul>6. Enter your name too see if you made the score board.</ul> 
+  </span>
+  <span id="instruct" class = "bottom">
+    <button class="start_button">Start the game</button> 
+  </span>
+</div> 
+
+<div class='wrapper'>
+  <span id="memory_board">
+      <span class="row row-a">
+        <span class="col col-0"></span>
+        <span class="col col-1"></span>
+        <span class="col col-2"></span>
+        <span class="col col-3"></span>
+        <span class="col col-4"></span>
+      </span>
+      <br>
+
+       <span class="row row-b">
+        <span class="col col-0"></span>
+        <span class="col col-1"></span>
+        <span class="col col-2"></span>
+        <span class="col col-3"></span>
+        <span class="col col-4"></span>
+      </span>
+      <br>
+
+       <span class="row row-c">
+        <span class="col col-0"></span>
+        <span class="col col-1"></span>
+        <span class="col col-2"></span>
+        <span class="col col-3"></span>
+        <span class="col col-4"></span>
+      </span>
+      <br>
+
+       <span class="row row-d">
+        <span class="col col-0"></span>
+        <span class="col col-1"></span>
+        <span class="col col-2"></span>
+        <span class="col col-3"></span>
+        <span class="col col-4"></span>
+      </span>
+      <br>
+
+       <span class="row row-e">
+        <span class="col col-0"></span>
+        <span class="col col-1"></span>
+        <span class="col col-2"></span>
+        <span class="col col-3"></span>
+        <span class="col col-4"></span>
+      </span>
+      <br>
+
+       <span class="row row-f">
+        <span class="col col-0"></span>
+        <span class="col col-1"></span>
+        <span class="col col-2"></span>
+        <span class="col col-3"></span>
+        <span class="col col-4"></span>
+      </span>
+      <br>
+  </span>
+</div>
+
+<div class='gameover'>
+  <table id="leaderboardTable">
+    <tr>
+      <th>Player</th>
+      <th>Score</th>
+    </tr>
+  </table>
+   <input class="leaderboard-name" type="text" id="nameInput" placeholder="Enter a name">
+</div>
+
+
+    <script src="./src/firebase.js"></script>
+
+</body>
+</html>

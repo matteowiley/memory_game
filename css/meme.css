@@ -1,0 +1,100 @@
+.col {
+  display: inline-block;
+  background-image: url("http://www.605s.com/img/green-605-playing-card-big.jpg");
+  background-size: 100%;
+  width: 100px;
+  height: 100px;
+}
+.start {
+  position: relative;
+}
+
+.start_button {
+   margin-left: 220px;
+   border-top: 1px solid #000000;
+   background: #2f4a18;
+   background: -webkit-gradient(linear, left top, left bottom, from(#439c3e), to(#2f4a18));
+   background: -webkit-linear-gradient(top, #439c3e, #2f4a18);
+   background: -moz-linear-gradient(top, #439c3e, #2f4a18);
+   background: -ms-linear-gradient(top, #439c3e, #2f4a18);
+   background: -o-linear-gradient(top, #439c3e, #2f4a18);
+   padding: 14px 28px;
+   -webkit-border-radius: 34px;
+   -moz-border-radius: 34px;
+   border-radius: 34px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #030103;
+   font-size: 24px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.start_button:hover {
+   border-top-color: #13872e;
+   background: #13872e;
+   color: #ccc;
+   }
+.start_button:active {
+   border-top-color: #335c1b;
+   background: #335c1b;
+   }
+img {
+  width: 100%;
+  height: 100%;
+  float: left;
+  clear: both;
+}
+.gone {
+  background-image: none;
+	background-color: white;
+}
+
+.clear {
+	opacity: 0.0;
+}
+#memory_board {
+	margin: 0 auto;
+	width: 50%;
+}
+.wrapper {
+	width: 37%;
+	display: inline-block;
+}
+.top { 
+  margin-top: 45px;
+  color: #003207;
+  font-size: 65px;
+  font-style: Impact;
+  margin-left: 79px;
+}
+ul {
+  margin-top: 45px;
+  color: #165a29;
+  font-size: 25px;
+  font-style: Impact;
+}
+
+th {
+  font-size: 20px;
+  color: #003207;
+  font
+  font-style: Impact;
+}
+
+div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+body {
+    background-image: url("http://ftextures.com/textures/light-green-ceramic-tile.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+
